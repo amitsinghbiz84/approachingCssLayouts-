@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Grid Template Areas</title>
+</head>
+
+<body>
+<div class="container">
+  <div class="element">
+  </div>
+  <h1>Cupcakes Recipe</h1>
+  <p>
+    Cupcake ipsum dolor sit. Amet sweet roll sweet roll cheesecake sweet roll apple pie ice cream. Toffee soufflé danish soufflé I love I love dessert I love. Lollipop carrot cake marshmallow I love caramels. Chocolate cotton candy unerdwear.com dessert gingerbread gummies I love. Bonbon chupa chups biscuit danish apple pie. Bonbon muffin dessert wafer chocolate cake sesame snaps candy canes marzipan.
+  </p>
+  <h3>Ingredients</h3>
+  <ul>
+    <li>1/2 Lorem Ipsum</li>
+    <li>5g Sugar Ipsum</li>
+    <li>2 eggs</li>
+  </ul>
+  <p>
+    Dessert oat cake candy lollipop topping cotton candy jelly beans I love cake. Brownie sugar plum cotton candy wafer dragée pudding I love. I love I love chocolate. Topping danish carrot cake soufflé liquorice icing gummi bears liquorice dessert. Jujubes oat cake tootsie roll tart. 
+  </p>
+  <p>
+    Cookie lollipop cookie gingerbread danish muffin sweet chupa chups. Gingerbread donut muffin biscuit sesame snaps chocolate cake sweet. Sugar plum lemon drops pastry tiramisu chocolate gingerbread. I love pudding biscuit soufflé wafer biscuit.
+  </p>
+  <div class="clear"></div>
+</div>
+
+
+  <style type="text/css">
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #555;
+  font-size: 1.5em;
+  background-color: #eee;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: white;
+}
+
+.element {
+  width: 40%;
+  height: 600px;
+  float: left;
+  background-image: url(http://tympanus.net/codrops-playground/assets/images/cssref/properties/clip-path/cupcakes.jpg);
+  background-size: cover;
+  background-position: -100px 0;
+  background-repeat: no-repeat;
+  -webkit-clip-path: ellipse(90% 70% at 0% 50%);
+  clip-path: ellipse(90% 70% at 0% 50%);
+  -webkit-shape-outside: ellipse(90% 70% at 0% 50%);
+  shape-outside: ellipse(90% 70% at 0% 50%);
+  -webkit-shape-margin: 2em;
+  shape-margin: 2em;
+}
+
+p,
+h1,
+h3 {
+  padding: 1em 0;
+}
+
+p {
+  margin-right: 4em;
+}
+
+ul {
+  list-style: circle;
+}
+
+.clear {
+  clear: both;
+}
+  </style>
+  
+  
+</body>
+
+</html>
